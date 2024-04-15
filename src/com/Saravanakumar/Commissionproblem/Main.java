@@ -1,4 +1,4 @@
-package com.Saravanakumar.Assignment3;
+package com.Saravanakumar.Commissionproblem;
 
 public class Main {
 
