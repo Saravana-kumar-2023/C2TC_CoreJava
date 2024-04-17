@@ -2,14 +2,10 @@ package com.Saravanakumar.InheritanceAssignment;
 public class Bicycle {
 	public int No_of_gears;
 	public int Speed_of_bicycle;
-	
-	public Bicycle()
-	{
-		
-	}
 	public Bicycle(int no_of_gears, int speed_of_bicycle) {
-		this.No_of_gears = no_of_gears;
-		this.Speed_of_bicycle = speed_of_bicycle;
+		super();
+		No_of_gears = no_of_gears;
+		Speed_of_bicycle = speed_of_bicycle;
 	}
 	public int getNo_of_gears() {
 		return No_of_gears;

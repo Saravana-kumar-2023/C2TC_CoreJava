@@ -9,11 +9,8 @@ public class TestClass {
 		 int Speed_of_bicycle = scanner.nextInt();
 		 int seat_height = scanner.nextInt();
 		 MontaneBike mb = new MontaneBike(No_of_gears,Speed_of_bicycle,seat_height);
-		 System.out.println(mb);
-		 
-		 
-		 
-
+		 System.out.println(mb);	 
+		 scanner.close();
 	}
 
 }

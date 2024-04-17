@@ -3,14 +3,6 @@ import java.util.Scanner;
 public class MontaneBike extends Bicycle {
 	Scanner scanner = new Scanner(System.in);
 	public int seat_height;
-	
-	public MontaneBike() {
-	}
-	
-	public MontaneBike(int seat_height) {
-		this.seat_height = seat_height;
-	}
-
 	public MontaneBike(int no_of_gears, int speed_of_bicycle, int seat_height) {
 		super(no_of_gears, speed_of_bicycle);
 		this.seat_height = seat_height;

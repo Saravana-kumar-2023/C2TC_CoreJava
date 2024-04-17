@@ -6,6 +6,11 @@ public class Employees {
 	public int EmpId;
 	private double Salary;
 	
+	public Employees()
+	{
+		
+	}
+	
 	public Employees(String Name,int Age,int EmpId,double Salary) {	
 		super();
 		this.Name = Name;
