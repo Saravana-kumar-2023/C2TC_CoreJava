@@ -1,4 +1,4 @@
-package com.Saravanakumar.daytwo;
+package com.Saravanakumar.AssignmentProbelm;
 import java.util.Scanner;
 public class CarpeCut {
 
@@ -15,7 +15,7 @@ public class CarpeCut {
 		 if (n <= 0) {
 	            return 1; 
 	        } else {
-	        	return 1 + (n * (n + 1)) / 2;
+	        	return (n - 1) * (n - 1);
 	        }
 	}
 }

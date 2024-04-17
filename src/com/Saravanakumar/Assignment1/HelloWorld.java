@@ -1,4 +1,4 @@
-package com.Saravanakumar.dayone;
+package com.Saravanakumar.Assignment1;
 
 public class HelloWorld {
 

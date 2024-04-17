@@ -1,4 +1,4 @@
-package com.Saravanakumar.daytwo;
+package com.Saravanakumar.AssignmentProbelm;
 import java.util.Scanner;
 public class SuperMarket {
 
