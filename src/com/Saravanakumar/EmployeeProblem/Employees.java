@@ -5,7 +5,7 @@ public class Employees {
 	private int Age;
 	public int EmpId;
 	private double Salary;
-	
+	 public static int totalEmployees =  0;
 	public Employees()
 	{
 		
